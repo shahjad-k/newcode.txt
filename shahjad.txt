@@ -1,0 +1,28 @@
+
+
+
+ cd .\Downloads\
+
+#!/bin/bash
+# Use this for your data (script without newlines)
+#install httpd (linux 2 version)
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "Hello Friends Welcome to ec2 server whose Ip is $(hostname -f)" >/var/www/html/index.html
+    
+
+
+
+Profile URL
+https://www.linkedin.com/in/shahjad-ali-71aa6429b
+Email
+shahjadsheikh257@gmail.com
+Phone number
+9616549674
+
+ansible-server install add wget 
+
+https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
